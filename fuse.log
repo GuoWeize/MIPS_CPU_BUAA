@@ -1,0 +1,72 @@
+Running: E:\ISE\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o G:/Verilog/P5_5/mipstest_isim_beh.exe -prj G:/Verilog/P5_5/mipstest_beh.prj work.mipstest work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "G:/Verilog/P5_5/RGF.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/REG_MEMWB.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/REG_IFID.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/REG_IDEX.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/REG_EXMEM.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/PC.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/nPC.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/MUX_WRsel.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/MUX_WDsel.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/MUX_Comsel.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/MUX_ALUsel.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/MUX_ALUin.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/MUXRTM.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/MUXRTE.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/MUXRTD.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/MUXRSE.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/MUXRSD.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/IM.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/EXT.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/DM.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/Decoder.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/Controlor.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/Comparator.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/ALU.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/Adder.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/mips.v" into library work
+Analyzing Verilog file "G:/Verilog/P5_5/mipstest.v" into library work
+Analyzing Verilog file "E:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 195688 KB
+Fuse CPU Usage: 374 ms
+Compiling module PC
+Compiling module IM
+Compiling module Adder4
+Compiling module REG_IFID
+Compiling module RGF
+Compiling module Decoder
+Compiling module MUXRSD
+Compiling module MUXRTD
+Compiling module EXT
+Compiling module MUX_Comsel
+Compiling module Comparator
+Compiling module nPC
+Compiling module Adder8
+Compiling module MUX_ALUin
+Compiling module REG_IDEX
+Compiling module MUXRSE
+Compiling module MUXRTE
+Compiling module MUX_ALUsel
+Compiling module ALU
+Compiling module REG_EXMEM
+Compiling module MUXRTM
+Compiling module DM
+Compiling module MUX_WDsel
+Compiling module MUX_WRsel
+Compiling module REG_MEMWB
+Compiling module Controlor
+Compiling module mips
+Compiling module mipstest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 18 sub-compilation(s) to finish...
+Compiled 29 Verilog Units
+Built simulation executable G:/Verilog/P5_5/mipstest_isim_beh.exe
+Fuse Memory Usage: 205040 KB
+Fuse CPU Usage: 671 ms
